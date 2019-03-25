@@ -1,11 +1,11 @@
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode(int x) { val = x; }
- * }
- */
+
+// Definition for singly-linked list.
+public class ListNode {
+    int val;
+    ListNode next;
+    ListNode(int x) { val = x; }
+}
+
 class Solution {
     public ListNode singleCheck(boolean carry, ListNode l) {
         if (!carry) {
